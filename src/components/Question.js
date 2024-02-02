@@ -6,8 +6,6 @@ function Question() {
 
   const question = questions.at(index);
 
-  console.log(question);
-
   return (
     <div>
       <h4>{question.question}</h4>
